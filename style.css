@@ -112,6 +112,9 @@ main > section:nth-child(2n) {
     border-left: 4px solid var(--primary);
     border-bottom: 4px solid var(--primary);
     color: #fff;
+
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+
     transition: .2s ease-in-out all;
 }
 
@@ -119,6 +122,7 @@ main > section:nth-child(2n) {
     background-color: #fff;
     color: var(--primary);
     transition: .2s ease-in-out all;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.7);
 }
 
 .btnPrimaryWhite {
@@ -130,11 +134,14 @@ main > section:nth-child(2n) {
     border-left: 4px solid #fff;
     border-bottom: 4px solid #fff;
 
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+
 }
 
 .btnPrimaryWhite:hover {
     background-color: var(--primary);
     color: #fff;
+    box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.7);
     transition: .2s ease-in-out all;
 }
 

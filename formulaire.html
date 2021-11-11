@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tout sur le piano</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<header id="header">
+    <div class="headerWrap">
+        <a href="index.html" class="site-brand">
+            <img id="site-logo" src="logo.png" width="2500" height="2500" alt="logo du site"/>
+            <span> Le piano c'est rigolo </span>
+        </a>
+        <nav id="navbar">
+            <ul>
+                <li>
+                    <a class="btn btnPrimary" href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a class="btn btnPrimaryWhite" href="marketplace.html">Magasin</a>
+                </li>
+                <li>
+                    <a class="btn btnPrimary" href="formulaire.html">S'inscire</a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </div>
+</header>
+<main>
+
+    <section id="formulairePresentation">
+        <div class="container">
+            <h2>Inscrivez vous !</h2>
+            <p>S'inscrire vous permet d'être au courant des dernières nouvelles du site !</p>
+        </div>
+    </section>
+
+    <section id="form">
+        <div class="formulaire">
+            <div class="container">
+                <form action="?" method="POST">
+                    <p>
+                        <label for="first_name">Prénom</label>
+                        <input type="text"
+                               placeholder="Prénom"
+                               id="first_name"
+                               name="first_name"
+                               value=""
+                               class="formControl"
+                               required
+                        />
+                    </p>
+                    <p>
+                        <label for="last_name">Nom</label>
+                        <input type="text"
+                               maxlength="255"
+                               placeholder="Nom"
+                               id="last_name"
+                               name="last_name"
+                               value=""
+                               class="formControl"
+                               required
+                        />
+                    </p>
+                    <p>
+                        <label for="tel">Téléphone</label>
+                        <input type="tel"
+                               placeholder="06 00 00 00 00"
+                               id="tel"
+                               name="tel"
+                               value=""
+                               class="formControl"
+                               required
+                        />
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email"
+                               id="email"
+                               name="email"
+                               class="formControl"
+                               maxlength="255"
+                               value=""
+                               placeholder="votre.mail@exemple.com"
+                               required
+                        />
+
+                    </p>
+                    <p>
+                        <label for="date">Date de naissance</label>
+                        <input type="date"
+                               placeholder="jj/mm/yyyy"
+                               id="date"
+                               name="date"
+                               value=""
+                               class="formControl"
+                               required
+                        />
+                    </p>
+                    <p>
+                        Vous possédez :
+                    </p>
+                    <p>
+                        <input type="checkbox"
+                               name="checkbox"
+                               id="check-1">
+                        <label for="check-1">Piano à queue</label>
+
+                        <input type="checkbox"
+                               name="checkbox"
+                               id="check-2">
+                        <label for="check-2">Piano droit</label>
+
+                        <input type="checkbox"
+                               name="checkbox"
+                               id="check-3">
+                        <label for="check-3">Piano électronique</label>
+                        <input type="checkbox"
+                               name="checkbox"
+                               id="check-4">
+                        <label for="check-3">Aucun</label>
+                    </p>
+                    <p>
+                        <label for="body">Vous avez une question ?</label>
+                        <textarea rows="5"
+                                  maxlength="3000"
+                                  id="body"
+                                  name="body"
+                                  class="formControl"
+                        ></textarea>
+                    </p>
+                    <button type="submit" class="btn btnPrimary">Envoyer</button>
+            </div>
+        </div>
+    </section>
+
+</main>
+<footer id="footer">
+    <ul>
+        <li>
+            <a class="btn btnPrimary" href="https://www.instagram.com/matthieu_hrt1/" target="_blank"
+               rel="noopener">
+                <i class="fab fa-instagram"></i>
+                Suivez moi sur Instagram !</a>
+        </li>
+        <li>
+            <a class="btn btnPrimary" href="https://www.youtube.com/channel/UCpgQutTMLuc4VI_gIgiVa1g" target="_blank"
+               rel="noopener">
+                <i class="fab fa-youtube"></i>
+                Suivez moi sur Youtube !</a>
+        </li>
+        <li>
+            <a class="btn btnPrimary" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+               rel="noopener">
+                <i class="fab fa-twitter"></i>
+                Suivez moi sur Twitter !</a>
+        </li>
+    </ul>
+</footer>
+</body>
+</html>

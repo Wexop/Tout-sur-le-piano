@@ -216,16 +216,25 @@ main > section:nth-child(2n) {
     max-height: 50px;
 }
 
-.pianoStyle p {
+.pianoStyle p,
+.pianoStyle a{
     color: var(--primary);
-    transform: scale(0);
+    display: none;
 }
+
+
 
 .pianoStyle:hover p {
     color: var(--textColor);
-    transform: scale(1);
+    display: initial;
     transition: .2s ease-in-out all;
 }
+
+.pianoStyle:hover a{
+    display: block;
+    margin: 1rem 2rem;
+}
+
 
 @media screen and (min-width: 1200px) {
 
